@@ -7,19 +7,19 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.example.guard.ui.home.HomeFragment"
+        android:name="com.example.guard.ui.home.mode1.HomeFragment1"
         android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home_mode1" />
 
     <fragment
         android:id="@+id/navigation_dashboard"
         android:name="com.example.guard.ui.dashboard.DashboardFragment"
         android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard1" />
+        tools:layout="@layout/fragment_dashboard_mode1" />
 
     <fragment
         android:id="@+id/navigation_notifications"
-        android:name="com.example.guard.ui.notifications.NotificationsFragment"
+        android:name="com.example.guard.ui.notifications.mode1.NotificationsFragment1"
         android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        tools:layout="@layout/fragment_notifications_mode1" />
 </navigation>

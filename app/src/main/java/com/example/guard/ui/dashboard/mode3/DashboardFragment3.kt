@@ -1,4 +1,3 @@
-// Mode3Fragment.kt
 package com.example.guard.ui.dashboard.mode3
 
 import android.os.Bundle
@@ -8,11 +7,11 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.example.guard.databinding.FragmentDashboardBinding
+import com.example.guard.databinding.FragmentDashboardMode3Binding
 
 class Mode3Fragment : Fragment() {
 
-    private var _binding: FragmentDashboardBinding? = null
+    private var _binding: FragmentDashboardMode3Binding? = null
     private val binding get() = _binding!!
 
     override fun onCreateView(
@@ -22,7 +21,7 @@ class Mode3Fragment : Fragment() {
     ): View {
         val mode3ViewModel = ViewModelProvider(this).get(Mode3ViewModel::class.java)
 
-        _binding = FragmentDashboardBinding.inflate(inflater, container, false)
+        _binding = FragmentDashboardMode3Binding.inflate(inflater, container, false)
         val root: View = binding.root
 
         val textView: TextView = binding.textDashboard

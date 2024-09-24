@@ -1,4 +1,4 @@
-package com.example.guard.ui.dashboard.mode2
+package com.example.guard.ui.home.mode2
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,11 +7,15 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.example.guard.databinding.FragmentDashboardMode2Binding
+import com.example.guard.databinding.FragmentHomeMode3Binding
+import com.example.guard.ui.home.mode1.HomeViewModel1
 
-class Mode2Fragment : Fragment() {
+class HomeFragment2 : Fragment() {
 
-    private var _binding: FragmentDashboardMode2Binding? = null
+    private var _binding: FragmentHomeMode3Binding? = null
+
+    // This property is only valid between onCreateView and
+    // onDestroyView.
     private val binding get() = _binding!!
 
     override fun onCreateView(
@@ -19,13 +23,14 @@ class Mode2Fragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val mode2ViewModel = ViewModelProvider(this).get(Mode2ViewModel::class.java)
+        val homeViewModel =
+            ViewModelProvider(this).get(HomeViewModel1::class.java)
 
-        _binding = FragmentDashboardMode2Binding.inflate(inflater, container, false)
+        _binding = FragmentHomeMode3Binding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textDashboard
-        mode2ViewModel.text.observe(viewLifecycleOwner) {
+        val textView: TextView = binding.textHome
+        homeViewModel.text.observe(viewLifecycleOwner) {
             textView.text = it
         }
         return root
