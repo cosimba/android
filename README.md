@@ -10,3 +10,7 @@
 ---
 
 ## Commit
+(start with Bottom Navigation Views Activity)
+1) first commit
+2) create a mode
+3) implementing the login screen
