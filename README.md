@@ -15,3 +15,4 @@
 2) create a mode
 3) implementing the login screen
 4) Modifying AndroidManifest.xml
+5) Modifying activity_login.xml
