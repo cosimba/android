@@ -14,3 +14,4 @@
 1) first commit
 2) create a mode
 3) implementing the login screen
+4) Modifying AndroidManifest.xml
