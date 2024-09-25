@@ -3,23 +3,82 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@+id/navigation_home_mode1">
 
+    <!-- Mode 1 -->
     <fragment
-        android:id="@+id/navigation_home"
+        android:id="@+id/navigation_home_mode1"
         android:name="com.example.guard.ui.home.mode1.HomeFragment1"
         android:label="@string/title_home"
         tools:layout="@layout/fragment_home_mode1" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.example.guard.ui.dashboard.DashboardFragment"
+        android:id="@+id/navigation_dashboard_mode1"
+        android:name="com.example.guard.ui.dashboard.mode1.Mode1Fragment"
         android:label="@string/title_dashboard"
         tools:layout="@layout/fragment_dashboard_mode1" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
+        android:id="@+id/navigation_notifications_mode1"
         android:name="com.example.guard.ui.notifications.mode1.NotificationsFragment1"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_notifications_mode1" />
+
+    <!-- Mode 2 -->
+    <fragment
+        android:id="@+id/navigation_home_mode2"
+        android:name="com.example.guard.ui.home.mode2.HomeFragment2"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home_mode2" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard_mode2"
+        android:name="com.example.guard.ui.dashboard.mode2.Mode2Fragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard_mode2" />
+
+    <fragment
+        android:id="@+id/navigation_notifications_mode2"
+        android:name="com.example.guard.ui.notifications.mode2.NotificationsFragment2"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications_mode2" />
+
+    <!-- Mode 3 -->
+    <fragment
+        android:id="@+id/navigation_home_mode3"
+        android:name="com.example.guard.ui.home.mode3.HomeFragment3"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home_mode3" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard_mode3"
+        android:name="com.example.guard.ui.dashboard.mode3.Mode3Fragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard_mode3" />
+
+    <fragment
+        android:id="@+id/navigation_notifications_mode3"
+        android:name="com.example.guard.ui.notifications.mode3.NotificationsFragment3"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications_mode3" />
+
+    <!-- Mode 4 -->
+    <fragment
+        android:id="@+id/navigation_home_mode4"
+        android:name="com.example.guard.ui.home.mode4.HomeFragment4"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home_mode4" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard_mode4"
+        android:name="com.example.guard.ui.dashboard.mode4.Mode4Fragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard_mode4" />
+
+    <fragment
+        android:id="@+id/navigation_notifications_mode4"
+        android:name="com.example.guard.ui.notifications.mode4.NotificationsFragment4"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications_mode4" />
+
 </navigation>

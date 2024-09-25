@@ -8,7 +8,6 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.guard.databinding.FragmentHomeMode3Binding
-import com.example.guard.ui.home.mode1.HomeViewModel1
 
 class HomeFragment3 : Fragment() {
 
@@ -24,7 +23,7 @@ class HomeFragment3 : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         val homeViewModel =
-            ViewModelProvider(this).get(HomeViewModel1::class.java)
+            ViewModelProvider(this).get(HomeViewModel3::class.java)
 
         _binding = FragmentHomeMode3Binding.inflate(inflater, container, false)
         val root: View = binding.root

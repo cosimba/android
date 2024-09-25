@@ -8,7 +8,6 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.guard.databinding.FragmentNotificationsMode2Binding
-import com.example.guard.ui.notifications.mode1.NotificationsViewModel1
 
 class NotificationsFragment2 : Fragment() {
 
@@ -24,7 +23,7 @@ class NotificationsFragment2 : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         val notificationsViewModel =
-            ViewModelProvider(this).get(NotificationsViewModel1::class.java)
+            ViewModelProvider(this).get(NotificationsViewModel2::class.java)
 
         _binding = FragmentNotificationsMode2Binding.inflate(inflater, container, false)
         val root: View = binding.root
