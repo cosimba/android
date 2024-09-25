@@ -16,3 +16,4 @@
 3) implementing the login screen
 4) Modifying AndroidManifest.xml
 5) Modifying activity_login.xml
+6) Modify the path (1)
