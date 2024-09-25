@@ -10,4 +10,7 @@
         <item>Mode 3</item>
         <item>Mode 4</item>
     </string-array>
+
+    <!-- 기존의 다른 문자열들 -->
+    <string name="register_activity_label">Register</string>
 </resources>
