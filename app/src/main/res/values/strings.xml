@@ -1,6 +1,13 @@
 <resources>
-    <string name="app_name">guard</string>
+    <string name="app_name">바다지킴이</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+
+    <string-array name="modes_array">
+        <item>Mode 1</item>
+        <item>Mode 2</item>
+        <item>Mode 3</item>
+        <item>Mode 4</item>
+    </string-array>
 </resources>
